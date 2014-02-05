@@ -1,0 +1,25 @@
+{
+  "name": "secure_sockets",
+  "version": "0.0.0",
+  "description": "Secure socket web chat",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~3.4.8",
+    "jade": "~1.1.5",
+    "socket.io": "~0.9.16",
+    "coffee-script": "~1.7.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AdamCmiel/secure_sockets.git"
+  },
+  "author": "Adam Cmiel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdamCmiel/secure_sockets/issues"
+  },
+  "homepage": "https://github.com/AdamCmiel/secure_sockets"
+}

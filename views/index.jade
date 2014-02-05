@@ -1,0 +1,14 @@
+doctype html
+head
+  script(src='js/bower_components/jquery/jquery.js')
+  script(src='js/bower_components/socket.io-client/dist/socket.io.js')
+  script(src='js/app.js')
+body
+  header 
+    h1 Secure Chatz
+    p  
+      | Send messages securely using secure sockets.  
+      | This page creates a chatroom that will expire in 10
+      | minutes unless it is agreed to be extended by all parties.
+  .container
+    button.createRoom Create Room!
